@@ -1,1 +1,1 @@
-# people-api-callback
+# Example callback server for People API
