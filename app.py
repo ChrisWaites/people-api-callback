@@ -3,8 +3,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['POST'])
 def handler():
-    print(request.get_json())
-    print(request.form)
+    print(request.form.get('text'))
     return 'Success!'
 
 if __name__ == "__main__":
